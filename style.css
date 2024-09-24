@@ -1,0 +1,74 @@
+/*Color & Fonts*/
+body {
+	background-color: #fb6f92;
+	color: #rgb(0, 0, 0);
+	font-size: 20px;
+	font-family: "Playfair Display", serif;
+}
+h1 { 
+	color: #ffc2d1;
+	font-family: "Ubuntu", sans-serif;
+	text-align: center;
+}
+h2 {
+	color: #ff8fab;
+	font-family: "Ubuntu", sans-serif;
+}
+
+
+.card-pink {
+	background: #ffe5ec ;
+	border: 1px dotted;
+	padding: 20px;
+	box-shadow: 0 15px 35px rgba(50,50,93,1);
+	margin: 60px;
+	text-align: center;
+}
+
+
+a {
+	text-decoration: none;	
+}
+
+.img-circle {
+	border-radius: 60%;
+	text-align: center;
+	padding: 30px;
+}
+
+.btn-primary {
+	background-color: #fb6f92 ;
+	border: 10px rgb(#ff8fab) solid;
+	padding: 10px;
+	color: white;
+	font-size: 2.2vw;
+}
+
+#introduction p {
+	margin-bottom: 30px;
+}
+
+.Follow {
+	padding: 50px;
+	text-align: center;
+}
+
+.btn-rounded{
+	text-decoration: none;
+	transition: 0.2sec;
+	font-size: 30px;
+	color: white;
+	font-family: "Ubuntu", sans-serif;
+	font-weight: bolder;
+	border-style: solid;
+	border-radius: 10px;
+	padding: 8px;
+	font-size: 3.5vw;
+
+}
+
+@media screen and (max-width: 600px) {
+	.container {
+		width: 90%;
+	}
+}
